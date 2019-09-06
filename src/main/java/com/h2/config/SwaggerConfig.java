@@ -15,7 +15,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * test001
+ * test001 00.00.0
  */
 @Configuration
 @EnableSwagger2
