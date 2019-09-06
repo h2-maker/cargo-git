@@ -15,8 +15,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 @SqlResource("Cargo")
 public interface CargoDao extends BaseMapper<Cargo> {
-    /**
-     * 分页查询
-     */
-    void queryByPage(PageQuery<Cargo> pageQuery);
+
 }
