@@ -17,5 +17,6 @@ import org.springframework.stereotype.Service;
 public class CargoService extends BaseService<CargoDao, Cargo>{
     public  void  a(){
 	    System.out.println("123");
+	    System.out.println("456");
     }
 }
