@@ -15,5 +15,7 @@ import org.springframework.stereotype.Service;
 @Service
 @RequiredArgsConstructor(onConstructor_ = {@Autowired})
 public class CargoService extends BaseService<CargoDao, Cargo>{
-    
+    public  void  a(){
+	    System.out.println("123");
+    }
 }
